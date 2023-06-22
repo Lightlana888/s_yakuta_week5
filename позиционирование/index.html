@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live&Travel</title>
+    <style>
+        .flexcontainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            background-color: rgb(102, 102, 97, 0.5);
+
+
+        }
+
+        .container {
+            display: flex;
+            height: 70vh;
+        }
+
+        .main-section {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+            background-color: rgba(241, 241, 64, 0.2);
+        }
+
+        .main-block {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .additional-row {
+            width: 100%;
+            display: flex;
+        }
+
+        .additional-block {
+            width: 50%;
+            height: 100px;
+            background-color: rgba(241, 241, 64);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+
+        .additional-block-full {
+            width: 100%;
+            height: 100px;
+            background-color: rgba(241, 241, 64);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+
+
+        .sidebar {
+            width: 50%;
+            background-color: #aed8b0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+
+
+        }
+
+        .sidebar p {
+            margin-top: 10%;
+        }
+
+        .main-container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 20vh;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(102, 102, 97, 0.5);
+
+        }
+
+        .inner-container {
+            display: flex;
+            padding: 30px;
+            background-color: rgb(233, 233, 227);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flexcontainer">[Шапка страницы]</div>
+    <div class="container">
+        <div class="main-section">
+            <div class="main-block">
+                [Основная часть]
+            </div>
+            <div class="additional-row">
+                <div class="additional-block">[Еще 1]</div>
+                <div class="additional-block">[Еще 2]</div>
+            </div>
+            <div class="additional-block-full">[Еще 3]</div>
+        </div>
+
+        <div class="sidebar">
+            <p>[Боковая область]</p>
+        </div>
+    </div>
+    <div class="main-container">
+        <p class="inner-container">[Секция футера 1]</p>
+        <p class="inner-container">[Секция футера 2]</p>
+        <p class="inner-container">[Секция футера 3]</p>
+        <p class="inner-container">[Секция футера 4]</p>
+    </div>
+
+</body>
+
+</html>
